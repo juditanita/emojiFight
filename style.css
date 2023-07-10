@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  /* background: linear-gradient(white, gray); */
+  height: 100vh;
+  color: #e98a1d;
+  letter-spacing: 5.7px;
+}
+.container {
+  background-color: antiquewhite;
+  min-height: 50vh;
+}
+img {
+  height: 150px;
+}
+h1 {
+  margin-top: -10px;
+  text-shadow: 0px 3px 0px black;
+  line-height: 24px;
+  transform: rotate(-9deg);
+}
+
+h2 {
+  font-family: serif;
+  text-transform: capitalize;
+}
+#stage {
+  width: 100%;
+  height: 30vh;
+  padding: 30px 0;
+  font-size: 50px;
+  margin: 0;
+}
+
+button {
+  margin: 20px;
+  cursor: pointer;
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: #e98a1d;
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+  margin-bottom: 10vh;
+}
