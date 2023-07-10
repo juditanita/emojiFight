@@ -2,7 +2,22 @@ let fighters = [
   "🐉",
   "🐥",
   "🐊",
-  "💩",
+  "🩺",
+  "⚖️",
+  "💷",
+  "🆓",
+  "👽",
+  "👻",
+  "🧠",
+  "🫀",
+  "💄",
+  "🌂",
+  "🍀",
+  "🍺",
+  "🧂",
+  "☢️",
+  "🦠",
+  "⛔",
   "🦍",
   "🐢",
   "🐩",
@@ -28,6 +43,9 @@ fightButton.addEventListener("click", function () {
 
   firstFighter = fighters[Math.floor(Math.random() * num)];
   secondFighter = fighters[Math.floor(Math.random() * num)];
+  if (secondFighter === firstFighter) {
+    secondFighter = fighters[Math.floor(Math.random() * num)];
+  }
   console.log(firstFighter);
   console.log(secondFighter);
   stageEl.textContent = firstFighter + "  vs  " + secondFighter;
